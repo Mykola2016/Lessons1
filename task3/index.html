@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Зверстати форму</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <form action="information.php" method="POST">
+        <table>
+           <caption>Зверстати форму</caption>
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Value</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="password" value="" id="pass"></td>
+                </tr>
+
+                <tr>
+                    <td>Sex</td>
+                    <td>
+                        <input type="radio" name="sex" value="Male">Male</br>
+                        <input type="radio" name="sex" value="Female" checked>Female
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Eye color</td>
+                    <td>
+                            <select size="1">
+                                <option value="green">green</option>
+                            </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Check all that apply</td>
+                    <td>
+                          <input type="checkbox" name>Over 6 feet tall</br>
+                          <input type="checkbox" name>Over 200 pounds
+              
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Describe your athletic ability:
+                            <p><textarea rows="10" cols="47" name="text"></textarea></p>
+                    </td>
+                </tr>
+                    <td colspan="2">                    
+                            <input type="submit" name="btn1" value="Enter my information" id="btn1">
+                           
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+      </form>
+    </div>
+</body>
+
+</html>
+
+
+<table>
+        ...
+           <td>
+           <input type="checkbox" name>Over 6 feet tall</br>
+           <input type="checkbox" name>Over 200 pounds</table>
+           </td>
+        ...
+</table>       
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+
+#wrapper{ 
+    margin: 50px;
+}
+caption{
+    padding-right: 49%;
+
+}
+  
+table{
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+    border: 4px solid black;
+}
+thead{
+    
+    text-align: center;
+    font-weight: 600 ;
+}
+thead > tr td{
+    border:2px solid black;
+}
+}
+tbody  td  tr {    
+    padding: 10 px;
+    text-indent: 5px;
+   }
+tbody  tr td{
+
+   border: 2px solid darkgray;
+   }
+  

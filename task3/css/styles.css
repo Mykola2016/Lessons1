@@ -1,0 +1,30 @@
+
+#wrapper{ 
+    margin: 250px;
+}
+caption{
+    padding-right: 49%;
+}
+table{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+      
+}
+thead{
+    padding: 2px solid moroon;
+    text-align: center;
+    font-weight: 600 ;
+    background: darkgrey;
+}
+tr td {
+    border: 1px solid black;
+}
+
+
+#btn1{
+        margin-left: 110px;
+}
+#pass{
+    width: 97%;
+}
